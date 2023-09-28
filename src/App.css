@@ -1,0 +1,224 @@
+/* Use this file to add custom css to the theme. */
+
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,
+kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,
+tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,
+summary,time,mark,audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-family: "roboto", sans-serif;
+  vertical-align: baseline;
+}
+html {
+  font-size: 10px !important;
+}
+img, iframe, video, audio, svg {
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: .2s ease-in-out;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button{
+  outline: none;
+  border: none;
+}
+.dashboard-box {
+  background-color: #F4F6F9;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard-box .left-box {
+  width: 50%;
+  padding: 3rem;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+.dashboard-box .left-box .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dashboard-box .left-box .detail-list {
+  display: flex;
+}
+.dashboard-box .left-box .detail-list li {
+  color: #6C6D70;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid #E8E4F5;
+}
+.detail-list li span {
+  display: block;
+  color: #282A2C;
+  font-size: 1.5rem;
+  margin-top: .5rem;
+}
+ul.product_list {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 3rem;
+  grid-column-gap: 3rem;
+  margin-top: 1rem;
+  border-top: 1px solid #E8E4F5;
+  padding-top: 3rem;
+}
+ul.product_list img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 240px;
+  border-radius: 2rem;
+}
+.dashboard-box .left-box .logo a {
+  display: flex;
+  align-items: center;
+}
+.dashboard-box .left-box .logo .logo-text {
+  margin-left: 1rem;
+}
+.dashboard-box .left-box .logo .logo-text h6 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
+.right-box {
+  width: 47%;
+  padding: 3rem;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+.product-sub-detail .top-box {
+  display: flex;
+  align-items: center;
+}
+
+.right-box span {
+  display: block;
+  color: #6C6D70;
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  width: 100%;
+}
+.right-box h6 {
+  color: #282A2C;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.product-detail-box ul.detail-text li {
+  margin-bottom: 2rem;
+}
+.right-box p {
+  color: #282A2C;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+ul.product_list li.current img {
+  border-radius: 2rem;
+  border: 3px solid #8F00DB;
+}
+.product-sub-detail .top-box .img-box {
+  width: 35%;
+}
+.product-sub-detail .top-box .img-box img{width: 100%;}
+.detail-box {
+  padding-left: 3rem;
+  width: 65%;
+}
+.flex-box {
+  display: flex;
+}
+.detail-box .live-since {
+  border-radius: 8px;
+  border: 1px solid #E8E4F5;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: .7rem 1.5rem;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+.detail-box .live-since p {
+  color: #282A2C;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.detail-box .live-since .day-box {
+  border-radius: 4px;
+  background: #E8E4F5;
+  font-size: 2.5rem;
+  padding: .5rem 1rem;
+}
+.detail-box .live-since .day-box span {
+  margin: 0;
+  line-height: 1;
+}
+.budget-box {
+  border-radius: 8px;
+  border: 1px solid #E8E4F5;
+  padding: .7rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.budget-box p {
+  color: #282A2C;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
